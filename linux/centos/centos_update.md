@@ -1,4 +1,4 @@
-# Обновление CentOS
+# Обновление пакетов CentOS
 
 CentOS для обновления использует пакетный менеджер Yum (Yellowdog Updater, Modified). Для обновления CentOS необходимо:
 
@@ -10,7 +10,7 @@ yum clean all
 ```bash
 yum list updates
 ```
-  3. Обновить CentOS:
+  3. Обновить все пакеты CentOS:
 ```bash
 yum update
 ```
